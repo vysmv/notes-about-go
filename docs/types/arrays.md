@@ -5,7 +5,7 @@
 Пример массива, который размещается в стеке:
 ```go
 func f() {
-	var a [100]int
+    var a [100]int
 }
 ```
 
@@ -14,8 +14,8 @@ func f() {
 Если массив большой или его адрес возвращается наружу, он перемещается в кучу:
 ```go
 func makeBigArray() *[1000000]int {
-	var a [1000000]int
-	return &a // a «утекает» из функции
+    var a [1000000]int
+    return &a // a «утекает» из функции
 }
 ```
 
@@ -164,64 +164,64 @@ fmt.Println(x == y) // true
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 type User struct {
-	Name string
-	Age int
-	Email string
-	Rating float64
-	Premium bool
+    Name string
+    Age int
+    Email string
+    Rating float64
+    Premium bool
 }
 
 func main() {
-	var users = [3]User{
-		{
-			Name: "Ivan",
-			Age: 32,
-			Email: "ivan@gmail.com",
-			Rating: 1.2,
-			Premium: true,
-		},
-		{
-			Name: "Vitaliy",
-			Age: 38,
-			Email: "vitaliy@gmail.com",
-			Rating: 1.7,
-			Premium: true,
-		},
-		{
-			Name: "Irina",
-			Age: 33,
-			Email: "irina@gmail.com",
-			Rating: 1.5,
-			Premium: false,
-		},
-	}
+    var users = [3]User{
+        {
+            Name: "Ivan",
+            Age: 32,
+            Email: "ivan@gmail.com",
+            Rating: 1.2,
+            Premium: true,
+        },
+        {
+            Name: "Vitaliy",
+            Age: 38,
+            Email: "vitaliy@gmail.com",
+            Rating: 1.7,
+            Premium: true,
+        },
+        {
+            Name: "Irina",
+            Age: 33,
+            Email: "irina@gmail.com",
+            Rating: 1.5,
+            Premium: false,
+        },
+    }
 
-	for _, user := range users {
-		if user.Premium {
-			user.Rating += 1.0 // // ← изменяется копия, оригинал останется прежним
-		}
-	}
+    for _, user := range users {
+        if user.Premium {
+            user.Rating += 1.0 // // ← изменяется копия, оригинал останется прежним
+        }
+    }
 
-	fmt.Println(users) // [{Ivan 32 ivan@gmail.com 1.2 true} {Vitaliy 38 vitaliy@gmail.com 1.7 true} {Irina 33 irina@gmail.com 1.5 false}]
+    fmt.Println(users) // [{Ivan 32 ivan@gmail.com 1.2 true} {Vitaliy 38 vitaliy@gmail.com 1.7 true} {Irina 33 irina@gmail.com 1.5 false}]
 
-	//как вариант можно использовать индекс
-	for i, user := range users {
-		if user.Premium {
-			users[i].Rating += 1.0 // ← изменяется оригинал
-		}
-	}
-	fmt.Println(users) // [{Ivan 32 ivan@gmail.com 2.2 true} {Vitaliy 38 vitaliy@gmail.com 2.7 true} {Irina 33 irina@gmail.com 1.5 false}]
+    //как вариант можно использовать индекс
+    for i, user := range users {
+        if user.Premium {
+            users[i].Rating += 1.0 // ← изменяется оригинал
+        }
+    }
+    fmt.Println(users) // [{Ivan 32 ivan@gmail.com 2.2 true} {Vitaliy 38 vitaliy@gmail.com 2.7 true} {Irina 33 irina@gmail.com 1.5 false}]
 
-	//Или классический цикл
-	for i := 0; i < len(users); i++ {
-		if users[i].Premium {
-			users[i].Rating += 1.0 // ← изменяется оригинал
-		}
-	}
-	fmt.Println(users) // [{Ivan 32 ivan@gmail.com 3.2 true} {Vitaliy 38 vitaliy@gmail.com 3.7 true} {Irina 33 irina@gmail.com 1.5 false}]
+    //Или классический цикл
+    for i := 0; i < len(users); i++ {
+        if users[i].Premium {
+            users[i].Rating += 1.0 // ← изменяется оригинал
+        }
+    }
+    fmt.Println(users) // [{Ivan 32 ivan@gmail.com 3.2 true} {Vitaliy 38 vitaliy@gmail.com 3.7 true} {Irina 33 irina@gmail.com 1.5 false}]
 }
 ```
