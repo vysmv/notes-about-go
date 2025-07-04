@@ -53,7 +53,7 @@
 - [HTTP-сервер](docs/http/server.md)
 
 ## 📦 Модули и пакеты
-- [Работа с go.mod](docs/modules/gomod.md)
+- [Модули и пакеты](docs/modules/gomod.md)
 
 ## 🔧 Инструменты разработчика
 - [Go tools](docs/tools/gotools.md)
