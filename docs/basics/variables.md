@@ -25,10 +25,10 @@ var x = 10 // x: int
 var x, y int = 10, 20
 var a, b = 1, "text"
 var (
-	m int
-	n = 42
-	o int = 7
-	p, q = "hi", 3.14
+    m int
+    n = 42
+    o int = 7
+    p, q = "hi", 3.14
 )
 ```
 
@@ -207,17 +207,17 @@ package main
 import "fmt"
 
 type User struct {
-	Name string
+    Name string
 }
 
 func main() {
-	name := "Americano"
-	proce := 2.99
-	ready := true
-	count := 5
-	user := User{Name: "Ivan"}
+    name := "Americano"
+    proce := 2.99
+    ready := true
+    count := 5
+    user := User{Name: "Ivan"}
 
-	fmt.Printf("%T\n%T\n%T\n%T\n%T\n", name, proce, ready, count, user)
+    fmt.Printf("%T\n%T\n%T\n%T\n%T\n", name, proce, ready, count, user)
 }
 ```
 
@@ -345,8 +345,8 @@ s2 := string(b) // []byte → string
 ```go
 const x int64 = 10
 const (
-	idKey = "id"
-	nameKey = "name"
+    idKey = "id"
+    nameKey = "name"
 )
 const z = 20 * 10
 ```
@@ -379,9 +379,9 @@ const x = 10
 - Гибкость: x можно использовать как int, float64, byte — смотря куда присваиваем.
 
 ```go
-var a int = x  	// ok
+var a int = x      // ok
 var b float64 = x  // ok
-var c byte = x 	// ok
+var c byte = x     // ok
 ```
 
 **Типизированная константа**
