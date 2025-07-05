@@ -25,7 +25,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello, Go!")
+    fmt.Println("Hello, Go!")
 }
 ```
 
@@ -352,19 +352,19 @@ Go **напрямую использует системные вызовы ОС*
 package main
 
 import (
-	"fmt"
-	"os"
+    "fmt"
+    "os"
 )
 
 func main() {
-	file, err := os.Create("hello.txt")
-	if err != nil {
-		panic(err)
-	}
-	defer file.Close()
+    file, err := os.Create("hello.txt")
+    if err != nil {
+        panic(err)
+    }
+    defer file.Close()
 
-	file.WriteString("Hello, Go + OS!\n")
-	fmt.Println("File written.")
+    file.WriteString("Hello, Go + OS!\n")
+    fmt.Println("File written.")
 }
 ```
 
@@ -480,9 +480,9 @@ go version -m app
 
 ```
 app: go1.21.1
-	path	myapp
-	mod 	myapp  (devel)
-	dep 	golang.org/x/sys v0.9.0
+    path    myapp
+    mod     myapp  (devel)
+    dep     golang.org/x/sys v0.9.0
 ```
 
 ---
