@@ -15,11 +15,11 @@
 - [Переменные и базовые типы](docs/basics/variables.md)
 - [Функции](docs/basics/functions.md)
 - [Управляющие конструкции](docs/basics/control.md)
-- [Массивы, слайсы, Мапы](docs/basic/collections.md)
-- [Указатели](docs/basic/pointers.md)
+- [Массивы, слайсы, Мапы](docs/basics/collections.md)
+- [Указатели](docs/basics/pointers.md)
 - [Структуры и методы](docs/basic/structs.md)
-- [Интерфейсы](docs/basic/interfaces.md)
-- [Операторы и выражения](docs/basic/operatorsandexpressions.md)
+- [Интерфейсы](docs/basics/interfaces.md)
+- [Операторы и выражения](docs/basics/operators-and-expressions.md)
 
 ## ⚙️ Параллелизм
 - [Горутины](docs/concurrency/goroutines.md)
