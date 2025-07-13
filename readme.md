@@ -19,7 +19,7 @@
 - [Указатели](docs/basic/pointers.md)
 - [Структуры и методы](docs/basic/structs.md)
 - [Интерфейсы](docs/basic/interfaces.md)
-- [Операторы и выражения](docs/basic/operators_and_expressions.md)
+- [Операторы и выражения](docs/basic/operatorsandexpressions.md)
 
 ## ⚙️ Параллелизм
 - [Горутины](docs/concurrency/goroutines.md)
