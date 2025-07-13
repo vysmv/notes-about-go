@@ -12,19 +12,14 @@
 - [Работа с документацией](docs/intro/docs.md)
 
 ## 🧱 Основы языка
-- [Синтаксис](docs/basics/syntax.md)
 - [Переменные и базовые типы](docs/basics/variables.md)
-- [Функции и методы](docs/basics/functions.md)
+- [Функции](docs/basics/functions.md)
 - [Управляющие конструкции](docs/basics/control.md)
-
-## 🧬 Типы и структуры
-- [Примитивы](docs/types/primitives.md)
-- [Массивы](docs/types/arrays.md)
-- [Слайсы](docs/types/slices.md)
-- [Map и Set](docs/types/maps.md)
-- [Указатели](docs/types/pointers.md)
-- [Структуры](docs/types/structs.md)
-- [Интерфейсы](docs/types/interfaces.md)
+- [Массивы, слайсы, Мапы](docs/basic/collections.md)
+- [Указатели](docs/basic/pointers.md)
+- [Структуры и методы](docs/basic/structs.md)
+- [Интерфейсы](docs/basic/interfaces.md)
+- [Операторы и выражения](docs/basic/)
 
 ## ⚙️ Параллелизм
 - [Горутины](docs/concurrency/goroutines.md)
@@ -32,6 +27,9 @@
 - [Select](docs/concurrency/select.md)
 - [Синхронизация (mutex, sync)](docs/concurrency/sync.md)
 - [Контекст (context)](docs/concurrency/context.md)
+
+## 📦 Модули и пакеты
+- [Модули и пакеты](docs/modules/gomod.md)
 
 ## ❗ Ошибки
 - [Базовая обработка](docs/errors/basic.md)
@@ -51,9 +49,6 @@
 
 ## 🌐 HTTP и веб
 - [HTTP-сервер](docs/http/server.md)
-
-## 📦 Модули и пакеты
-- [Модули и пакеты](docs/modules/gomod.md)
 
 ## 🔧 Инструменты разработчика
 - [Go tools](docs/tools/gotools.md)
