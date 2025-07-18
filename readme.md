@@ -15,7 +15,9 @@
 - [Переменные и базовые типы](docs/basics/variables.md)
 - [Функции](docs/basics/functions.md)
 - [Управляющие конструкции](docs/basics/control.md)
-- [Массивы, слайсы, Мапы](docs/basics/collections.md)
+- [Массивы (array)](docs/basics/arrays.md)
+- [Срезы (slice)](docs/basics/slices.md)
+- [Мапы (map)](docs/basics/maps.md)
 - [Указатели](docs/basics/pointers.md)
 - [Структуры и методы](docs/basic/structs.md)
 - [Интерфейсы](docs/basics/interfaces.md)
@@ -59,9 +61,7 @@
 - [Профилирование](docs/testing/profiling.md)
 
 ## 🧱 Архитектура
-- [Чистая архитектура](docs/architecture/clean.md)
-- [Сервисы](docs/architecture/services.md)
-- [Плагины и интерфейсы](docs/architecture/plugins.md)
+- [Архитектура проекта на Go](docs/architecture/go-project-architecture.md)
 
 ## 📚 Стандартная библиотека
 - [Обзор стандартной библиотеки](docs/stdlib/overview.md)
