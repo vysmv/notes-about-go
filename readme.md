@@ -19,7 +19,7 @@
 - [Срезы (slice)](docs/basics/slices.md)
 - [Мапы (map)](docs/basics/maps.md)
 - [Указатели](docs/basics/pointers.md)
-- [Структуры и методы](docs/basic/structs.md)
+- [Структуры и методы](docs/basics/structs.md)
 - [Интерфейсы](docs/basics/interfaces.md)
 - [Операторы и выражения](docs/basics/operators-and-expressions.md)
 
