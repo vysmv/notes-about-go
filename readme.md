@@ -22,22 +22,13 @@
 - [Структуры и методы](docs/basics/structs.md)
 - [Интерфейсы](docs/basics/interfaces.md)
 - [Операторы и выражения](docs/basics/operators-and-expressions.md)
-
-## ⚙️ Параллелизм
-- [Горутины](docs/concurrency/goroutines.md)
-- [Каналы](docs/concurrency/channels.md)
-- [Select](docs/concurrency/select.md)
-- [Синхронизация (mutex, sync)](docs/concurrency/sync.md)
-- [Контекст (context)](docs/concurrency/context.md)
+- [Параллелизм](docs/basics/parallelism.md)
 
 ## 📦 Модули и пакеты
 - [Модули и пакеты](docs/modules/gomod.md)
 
 ## ❗ Ошибки
-- [Базовая обработка](docs/errors/basic.md)
-- [Sentinel-ошибки](docs/errors/sentinel.md)
-- [Обёртка ошибок (error wrapping)](docs/errors/wrapping.md)
-- [Panic и Recover](docs/errors/panic.md)
+- [Работа с ошибками](docs/errors/errors.md)
 
 ## 🕒 Работа со временем
 - [Таймеры и работа со временем](docs/time/timers.md)
