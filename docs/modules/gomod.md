@@ -160,11 +160,11 @@ go get github.com/gorilla/mux
 
 > Также могут быть полезными:
 
-> - go list -m <moduleName>    Показывает конкретную версию модуля в текущем проекте.
+> - go list -m `moduleName`    Показывает конкретную версию модуля в текущем проекте.
 
-> - go list -m -json <moduleName>    Выдаёт полную информацию в JSON (путь, версия, замены).
+> - go list -m -json `moduleName`    Выдаёт полную информацию в JSON (путь, версия, замены).
 
-> - go list -m -versions <moduleName>    Показывает доступные версии (если есть подключение к proxy).
+> - go list -m -versions `moduleName`    Показывает доступные версии (если есть подключение к proxy).
 
 > - go mod graph    Граф зависимостей, то есть кто кого требует.
 
@@ -172,7 +172,7 @@ go get github.com/gorilla/mux
 
 > - Или установить go install github.com/loov/goda/cmd/modgraphviz@latest и вызвать go mod graph | modgraphviz | dot -Tpng -o graph.png. Это сгенерирует PNG-файл с красивой схемой зависимостей.
 
-> - go mod why <module>    Почему этот модуль вообще попал в зависимость.
+> - go mod why `module`    Почему этот модуль вообще попал в зависимость.
 
 
 - Добавляет нужную версию в файл go.mod.
