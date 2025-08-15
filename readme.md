@@ -2,73 +2,40 @@
   <img src="gologo.png" alt="Описание" width="400">
 </p>
 
-# 📘 Документация по Go
-
-> Путеводитель по Go: от философии до системного программирования
+# 📘 Заметки о Go
 
 ## 📖 Введение
-- [Философия Go](docs/intro/philosophy.md)
-- [Helicopter view](docs/intro/helicopter-view.md)
-- [Работа с документацией](docs/intro/docs.md)
+- 📜 [Философия Go](docs/intro/philosophy.md)
+- 🚁 [Helicopter view](docs/intro/helicopter-view.md)
+- 📚 [Работа с документацией](docs/intro/docs.md)
 
 ## 🧱 Основы языка
-- [Переменные и базовые типы](docs/basics/variables.md)
-- [Функции](docs/basics/functions.md)
-- [Управляющие конструкции](docs/basics/control.md)
-- [Массивы (array)](docs/basics/arrays.md)
-- [Срезы (slice)](docs/basics/slices.md)
-- [Мапы (map)](docs/basics/maps.md)
-- [Указатели](docs/basics/pointers.md)
-- [Структуры и методы](docs/basics/structs.md)
-- [Интерфейсы](docs/basics/interfaces.md)
-- [Операторы и выражения](docs/basics/operators-and-expressions.md)
-- [Параллелизм](docs/basics/parallelism.md)
+- 🔤 [Переменные и базовые типы](docs/basics/variables.md)
+- ➕ [Операторы и выражения](docs/basics/operators-and-expressions.md)
+- 🔧 [Функции](docs/basics/functions.md)
+- 🔀 [Управляющие конструкции](docs/basics/control.md)
+- 📏 [Массивы](docs/basics/arrays.md)
+- ✂️ [Срезы](docs/basics/slices.md)
+- 🗺 [Мапы](docs/basics/maps.md)
+- 📍 [Указатели](docs/basics/pointers.md)
+- 🏗 [Структуры и методы](docs/basics/structs.md)
+- 🧩 [Интерфейсы](docs/basics/interfaces.md)
+- ⚙️ [Конкурентность](docs/basics/concurrency.md)
+- 📦 [Модули и пакеты](docs/basics/gomod.md)
+- 🚫 [Работа с ошибками](docs/basics/errors.md)
+- 🗂 [Архитектура проекта](docs/basics/go-project-architecture.md)
 
-## 📦 Модули и пакеты
-- [Модули и пакеты](docs/modules/gomod.md)
+## 🖥 Работа с ОС
+- 💾 [Ввод и вывод данных](docs/os/io.md)
+- 📂 [Файлы и директории](docs/os/files.md)
+- ⏱ [Время и даты](docs/os/time.md)
 
-## ❗ Ошибки
-- [Работа с ошибками](docs/errors/errors.md)
-
-## 🕒 Работа со временем
-- [Таймеры и работа со временем](docs/time/timers.md)
-
-## 📂 Ввод/вывод
-- [Потоки (streams)](docs/io/streams.md)
-
-## 📁 Работа с файлами
-- [Чтение и запись](docs/io/files.md)
-- [Работа с директорией](docs/io/dirs.md)
-
-## 🌐 HTTP и веб
-- [HTTP-сервер](docs/http/server.md)
-
-## 🔧 Инструменты разработчика
-- [Go tools](docs/tools/gotools.md)
-
-## ✅ Тестирование и профилирование
-- [Тестирование](docs/testing/testing.md)
-- [Бенчмарки](docs/testing/benchmarks.md)
-- [Профилирование](docs/testing/profiling.md)
-
-## 🧱 Архитектура
-- [Архитектура проекта на Go](docs/architecture/go-project-architecture.md)
-
-## 📚 Стандартная библиотека
-- [Обзор стандартной библиотеки](docs/stdlib/overview.md)
-
-## 🏗️ Инфраструктура и сборка
-- [Сборка и запуск](docs/infra/build.md)
-
-## 🚀 Продвинутое
-- [GC](docs/advanced/gc.md)
-- [Unsafe](docs/advanced/unsafe.md)
-- [Reflect](docs/advanced/reflect.md)
-- [Генерация кода](docs/advanced/generate.md)
-- [Системное программирование](docs/advanced/sysprog.md)
+## 🌐 Веб и сетевое взаимодействие
+- 🔗 [REST API](docs/web/rest-api.md)
+- 🖥️ [Веб-приложения](docs/web/web-app.md)
 
 ## 🧪 Практика
-- [Готовые рецепты](docs/practice/recipes.md)
+- 🛠 [Готовые рецепты](docs/practice/recipes.md)
 
 ## 📘 Глоссарий
-- [Глоссарий терминов](docs/glossary/glossary.md)
+- 📖 [Глоссарий терминов](docs/glossary/glossary.md)
