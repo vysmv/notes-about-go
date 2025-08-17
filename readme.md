@@ -15,7 +15,7 @@
 - 🔧 [Функции](docs/basics/functions.md)
 - 🔀 [Управляющие конструкции](docs/basics/control.md)
 - 📏 [Массивы](docs/basics/arrays.md)
-- 👀 [Области видимости](docs/basic/scope.md)
+- 👀 [Области видимости](docs/basics/scope.md)
 - ✂️ [Срезы](docs/basics/slices.md)
 - 🗺 [Мапы](docs/basics/maps.md)
 - 📍 [Указатели](docs/basics/pointers.md)
