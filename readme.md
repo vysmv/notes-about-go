@@ -41,4 +41,4 @@
 ## 📘 Глоссарий
 - 📖 [Глоссарий терминов](docs/glossary/glossary.md)
 
-q
+qq
