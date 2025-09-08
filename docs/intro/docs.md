@@ -39,25 +39,25 @@
    Открывать исходники прямо в браузере — доступна вкладка Source.
 
 6. **Документация из консоли**
-Go позволяет получать документацию прямо из терминала с помощью команды `go doc`.
-Получить краткое описание стандартного пакета:
-```bash
-go doc -short fmt
-```
-Или посмотреть описание пакета от стороннего разработчика:  
-```bash
-go doc -short github.com/go-mysql-org/go-mysql/replication`
-```
-Как вариант, можно получить полное описание пакета, введя:  
-```bsh
-go doc -all github.com/go-mysql-org/go-mysql/replication`  
-```
-или  
-```bash
-go doc -all fmt`
-```
-Также Go позволяет показать описание структуры, входящей в состав пакета.
-Для этого можно просто указать её название через точку после имени пакета:  
-```bash
-go doc github.com/go-mysql-org/go-mysql/replication.BinlogSyncer`
-```
+   Go позволяет получать документацию прямо из терминала с помощью команды `go doc`.
+   Получить краткое описание стандартного пакета:
+   ```bash
+   go doc -short fmt
+   ```
+   Или посмотреть описание пакета от стороннего разработчика:  
+   ```bash
+   go doc -short github.com/go-mysql-org/go-mysql/replication`
+   ```
+   Как вариант, можно получить полное описание пакета, введя:  
+   ```bsh
+   go doc -all github.com/go-mysql-org/go-mysql/replication`  
+   ```
+   или  
+   ```bash
+   go doc -all fmt`
+   ```
+   Также Go позволяет показать описание структуры, входящей в состав пакета.
+   Для этого можно просто указать её название через точку после имени пакета:  
+   ```bash
+   go doc github.com/go-mysql-org/go-mysql/replication.BinlogSyncer`
+   ```
