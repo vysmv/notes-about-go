@@ -23,8 +23,8 @@
     - **Index** — перечень всех функций и типов, предоставляемых пакетом при импорте.
 
 4. **Стаиль кодирования**
-   [https://go.dev/doc/effective_go](https://go.dev/doc/effective_go)
-   [https://google.github.io/styleguide/go/](https://google.github.io/styleguide/go/)
+   - [https://go.dev/doc/effective_go](https://go.dev/doc/effective_go)
+   - [https://google.github.io/styleguide/go/](https://google.github.io/styleguide/go/)
 
 5. **Каталог пакетов Go**
 [https://pkg.go.dev/](https://pkg.go.dev/)
