@@ -1,5 +1,16 @@
 # Helicopter view
 
+## Установка Go
+
+1. Скачиваем https://go.dev/dl/
+2. Удаляем старую версию - sudo rm -rf /usr/local/go
+3. Устанавливаем в /usr/local:
+ 
+```bash
+sudo tar -C /usr/local -xzf go1.24.0.linux-amd64.tar.gz
+go version
+```
+
 ## Инструментарий Go разработчика
 
 Используя go, мы имеем в распоряжении не "технологию и ее окружение", то есть не список технологий типа: php интерпретатор, composer, code sniffer, PHPUnit и т.д., а один инструмент `go`, который объединяет в себе:
