@@ -12,10 +12,10 @@
 ## 🧱 Основы языка
 - 🔤 [Переменные и базовые типы](docs/basics/variables.md)
 - ➕ [Операторы и выражения](docs/basics/operators-and-expressions.md)
-- 🔧 [Функции](docs/basics/functions.md)
 - 🔀 [Управляющие конструкции](docs/basics/control.md)
-- 📏 [Массивы](docs/basics/arrays.md)
+- 🔧 [Функции](docs/basics/functions.md)
 - 👀 [Области видимости](docs/basics/scope.md)
+- 📏 [Массивы](docs/basics/arrays.md)
 - ✂️ [Срезы](docs/basics/slices.md)
 - 🗺 [Мапы](docs/basics/maps.md)
 - 📍 [Указатели](docs/basics/pointers.md)
