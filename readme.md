@@ -11,7 +11,7 @@
 
 ## 🧱 Основы языка
 - 🔤 [Переменные и базовые типы](docs/basics/variables.md)
-- ➕ [Операторы и выражения](docs/basics/operators-and-expressions.md)
+- 🔣 [Операторы и выражения](docs/basics/operators-and-expressions.md)
 - 🔀 [Управляющие конструкции](docs/basics/control.md)
 - 🔧 [Функции](docs/basics/functions.md)
 - 👀 [Области видимости](docs/basics/scope.md)
